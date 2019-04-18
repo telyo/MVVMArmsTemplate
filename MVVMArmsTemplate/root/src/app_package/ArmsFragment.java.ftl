@@ -1,6 +1,6 @@
 package ${fragmentPackageName};
 import android.arch.lifecycle.ViewModelProviders
-import android.os.Bundle
+import android.os.Bundle;
 import ${packageBaseName}.BaseFragment;
 import ${viewModelPackageName}.${pageName}ViewModel;
 import android.support.annotation.Nullable;
@@ -29,7 +29,7 @@ public class ${pageName}Fragment extends BaseFragment<Fragment${pageName}Binding
 
     @Override
     public void initData(@Nullable Bundle savedInstanceState) {
-        mViewModel = ViewModelProviders.of(this).get(${pageName}ViewModel::class.java)
+        mViewModel = ViewModelProviders.of(this).get(${pageName}ViewModel.class);
     }
 
 }

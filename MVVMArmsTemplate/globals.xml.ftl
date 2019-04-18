@@ -7,9 +7,7 @@
     <global id="generateActivityTitle" type="boolean" value="false" />
     <global id="relativePackage" value="${ativityPackageName}" />
     <global id="activityClass" value="${pageName}Activity" />
-    <#include "../common/common_gmode gradle 加{
-    	*
-    	*               }lobals.xml.ftl" />
+    <#include "../common/common_globals.xml.ftl" />
 </globals>
 
 <#macro fileHeader>
